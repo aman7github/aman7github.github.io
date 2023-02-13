@@ -1,0 +1,183 @@
+
+.nav-menu{
+    width: 100%;
+    min-height: 4.5rem;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(26,26,26);
+    color: rgb(193, 191, 191);
+    font-weight: 500;
+}
+.first{
+    /* border:1px solid rgb(177,7,255); */
+    width: 25%;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: rgb(177,7,255);
+}
+.second{
+    /* border:1px solid red; */
+    width: 50%;
+    min-height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+#navhome{
+    /* border:1px solid rgb(193, 191, 191); */
+    min-height: 3rem;
+    /* width: 100%; */
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 0.7rem;
+    cursor: pointer;
+}
+#navhome:hover{
+    background-color: rgb(177,7,255);
+    color: white;
+}
+#navabout{
+    /* border:1px solid rgb(193, 191, 191); */
+    min-height: 3rem;
+    /* width: 15%; */
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 0.7rem;
+    cursor: pointer;
+}
+#navabout:hover{
+    background-color: rgb(177,7,255);
+    color: white;
+}
+#navskills{
+    /* border:1px solid rgb(193, 191, 191); */
+    min-height: 3rem;
+    /* width: 15%; */
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 0.7rem;
+    cursor: pointer;
+}
+#navskills:hover{
+    background-color: rgb(177,7,255);
+    color: white;
+}
+#navprojects{
+    /* border:1px solid rgb(193, 191, 191); */
+    min-height: 3rem;
+    /* width: 15%; */
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 0.7rem;
+    cursor: pointer;
+}
+#navprojects:hover{
+    background-color: rgb(177,7,255);
+    color: white;
+}
+#navresume{
+    /* border:1px solid rgb(193, 191, 191); */
+    min-height: 3rem;
+    /* width: 15%; */
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 0.7rem;
+    cursor: pointer;
+}
+#navresume:hover{
+    background-color: rgb(177,7,255);
+    color: white;
+}
+#navcontact{
+    border:none;
+    min-height: 3rem;
+    /* width: 15%; */
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 0.7rem;
+    cursor: pointer;
+}
+#navcontact:hover{
+    background-color: rgb(177,7,255);
+    color: white;
+}
+
+.ham{
+    margin-right: 3rem;
+    display: none;
+}
+
+
+
+@media all and (max-width: 1200px){
+    .navhome{
+        font-size: 0.5rem;
+        padding: 0 0.2rem;
+        /* width: 13%;    */
+    }
+    .navskills{
+        font-size: 0.5rem;
+        /* width: 13%;    */
+        padding: 0 0.2rem;
+    }
+    .navprojects{
+        font-size: 0.5rem;
+        /* width: 13%;    */
+        padding: 0 0.2rem;
+    }
+    .navcontact{
+        font-size: 0.5rem;
+        /* width: 13%;    */
+        padding: 0 0.2rem;
+    }
+    .navresume{
+        font-size: 0.5rem;
+        padding: 0 0.2rem;
+        /* width: 13%;    */
+    }
+    .second{
+       width:70%;
+    }
+    .first{
+        width:30%;
+        font-size: 1.2rem;
+    }
+}
+
+@media all and (max-width: 730px){
+    .second{
+        display: none; 
+    }
+    .first{
+        width:52%;
+        font-size: 0.8rem;
+    }
+    .ham{
+        margin-right: 3rem;
+        display: block;
+    }
+}

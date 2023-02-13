@@ -1,0 +1,142 @@
+
+.ProjetContainer{
+    width:100%;
+    min-height: 102rem;
+    /* border:1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+  }
+  
+  
+  .firsrP{
+      font-size: 3rem;
+      width: 38%;
+      margin: 0 0 0 -64rem;
+      color: rgb(177,7,255);
+      font-weight: 600;
+  
+  }
+  .secondP{
+      font-size: 1.2rem;
+      width: 50%;
+      margin: 0 0 0 -54rem;
+      color: white;
+  }
+  .project-card{
+      width:75%;
+      min-height: 400px;
+      border:1px solid white;
+      margin-top: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 7px;
+  
+  }
+  .Pro1a{
+      width: 52%;
+      /* border:1px solid blue; */
+      min-height: 370px ;
+  }
+  .Pro1a>img{
+      width: 100%;
+      min-height: 370px;
+      
+  }
+  .Pro1b{
+      width: 42%;
+      /* border:1px solid blue; */
+      min-height: 370px ;
+      text-align: left;
+      margin-left: 2rem;
+  }
+  .project-title{
+      font-size: 2rem;
+      font-weight: 700;
+      color: white;
+  }
+  .Pr2{
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+      color: white;
+  }
+  .project-description{
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+      color: white;
+  }
+  .project-tech-stack{
+      font-size: 1.05rem;
+      margin-top: 1rem;
+      font-weight: 600;
+      color: white;
+  }
+  .btnDiv{
+      /* border:1px solid blue; */
+      width: 70%;
+      min-height: 45px;
+      margin-top: 0.7rem;
+      margin: 1.5rem auto auto 1rem;
+      display: flex;
+      justify-content: space-between;
+  }
+  /* .btn1{
+      border:1px solid black;
+      font-size: 1.2rem;
+      width: 8.5rem;
+      min-height:2.3rem ;
+      border-radius:5px ;
+      font-weight: 700;
+      
+  } */
+  
+  .project-github-link{
+      border:1px solid white;
+      font-size: 1.2rem;
+      width: 8.5rem;
+      min-height:2.3rem ;
+      border-radius:8px ;
+      font-weight: 700;
+      color: white;
+  }
+  .project-github-link:hover{
+      background-color: white;
+      color: black;
+  }
+  .project-deployed-link{
+      border:1px solid white;
+      font-size: 1.2rem;
+      width: 8.5rem;
+      min-height:2.3rem ;
+      border-radius:8px ;
+      font-weight: 700;
+      color: white;
+  }
+  .project-deployed-link:hover{
+      background-color: white;
+      color: black;
+  }
+  
+  @media all and (max-width: 1200px){
+  
+      .project-card{
+          width:100%;
+          min-height: 800px;
+          flex-direction: column;
+      
+      }
+      
+      .btnDiv{
+          width: 80%;
+      }
+      .Pro1b{
+          width: 72%;
+          text-align: center;
+      }
+  
+  }
+  

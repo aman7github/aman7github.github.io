@@ -1,0 +1,61 @@
+.contact{
+    width: 100%;
+    min-height: 30rem;
+    /* border:1px solid red; */
+    background-color: rgb(26,26,26);
+    padding-top: 0.5rem;
+}
+
+.contactP1{
+    font-size: 2rem;
+    text-align: left;
+    width: 90%;
+    margin: 4rem auto auto auto;
+    font-weight: 600;
+    color: rgb(177,7,255);
+}
+
+.icondiv{
+    width: 60%;
+    min-height: 20rem;
+    border:1px solid white;
+    margin: 2rem auto auto auto;
+    border-radius: 0.5rem;
+}
+
+.contactP2{
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-align: center;
+    width: 90%;
+    margin: 1rem auto auto auto;
+    color: white;
+}
+.email{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 1rem 0 0 2rem;
+    color: white;
+}
+.icons{
+    display: flex;
+    margin-top: 2rem;
+}
+.link{
+  margin-left: 3rem;
+}
+
+@media all and (max-width: 600px){
+
+    .icondiv{
+        width: 90%;
+    }
+    .icons{
+        flex-direction: column;
+        gap:2rem;
+    }
+    .email{
+        font-size: 0.8rem;
+    }
+}
