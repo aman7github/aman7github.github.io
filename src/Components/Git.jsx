@@ -9,20 +9,20 @@ const Git = () => {
  
 
   return (
-    <div className='GitContainer' >
+    <div className='GitContainerAMAN' >
 
-     <p className='gitP1' >Git Stats</p>
+     <p className='gitP1AMAN' >Git Stats</p>
      <p  className='gitP2' >Lets get into some statistics. Shall we?</p>
 
-     <div className='calendarDiv' >
-      <p className='calendarP' >Git Calendar</p>
+     <div className='calendarDivAMAN' >
+      <p className='calendarPAMAN' >Git Calendar</p>
      <GitHubCalendar  username='aman7github'  blockSize={14}  fontSize={14} />
      <Tooltip   />
 
      </div>
 
 
-     <div className='Stats' >
+     <div className='StatsAMAN' >
       {/* <div style={{ width: "40%", margin: "auto" }}>
         <a href="https://github.com/aman7github">
           <img
@@ -32,11 +32,11 @@ const Git = () => {
         </a>
       </div> */}
 
-      <p className='statsP' >Git Stats</p>
+      <p className='statsPAMAN' >Git Stats</p>
 
       <div id="github-streak-stats">
         <a href="https://github.com/aman7github">
-          <img
+          <img className='streakAMAN'
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com/?user=aman7github"
           />
@@ -45,8 +45,8 @@ const Git = () => {
  
         <div id="github-stats-card"  >
         <a href="https://github.com/saurabh0413">
-          <img
-            align="left" className='stats1'
+          <img 
+            align="left" className='stats1AMAN'
             src="https://github-readme-stats.vercel.app/api?username=aman7github&count_private=true&show_icons=true" //stats
           />
         </a>

@@ -18,37 +18,38 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons'
 
 const Navbar = () => {
+
   return (
     <div className='nav-menu' >
 
-     <div className='first'id="user-detail-name" >
+     <div className='firstdivAMAN'id="user-detail-name" >
        AMAN KUMAR MAURYA
      </div>
 
 
-      <div className='second' >
+      <div className='seconddivAMAN' >
         <ScrollLink to="home" smooth={true}  duration={500} >
-        <div className="nav-link home" id="navhome" >HOME</div>
+        <div className="nav-link home" id="navhomeAMAN" >HOME</div>
         </ScrollLink>
 
         <ScrollLink to="about" smooth={true}  duration={500} >
-        <div className='nav-link about' id="navabout" >ABOUT</div>
+        <div className='nav-link about' id="navabouAMANt" >ABOUT</div>
         </ScrollLink>
 
         <ScrollLink to="projects" smooth={true}  duration={1000} >
-        <div className='nav-link projects' id="navprojects" >PROJECTS</div>
+        <div className='nav-link projects' id="navprojectsAMAN" >PROJECTS</div>
         </ScrollLink>
 
         <ScrollLink to="skills" smooth={true}  duration={1000} >
-        <div className='nav-link skills' id="navskills" >SKILLS</div>
+        <div className='nav-link skills' id="navskillsAMAN" >SKILLS</div>
         </ScrollLink>
 
         <ScrollLink to="contact" smooth={true}  duration={1000} >
-        <div className='nav-link contact' id="navcontact" >CONTACTS</div>
+        <div className='nav-link contact' id="navcontactAMAN" >CONTACTS</div>
         </ScrollLink>
 
-       <a target="_blank" href={file}   download="Aman_Maurya_Resume"  >
-       <button className='nav-link resume' id="navresume"  >RESUME</button>
+       <a href={file}   download="Aman_Maurya_Resume.pdf"  target="_blank" >
+       <button className='nav-link resume' id="navresumeAMAN"  >RESUME</button>
        </a>
 
     
@@ -132,7 +133,7 @@ const Navbar = () => {
                 CONTACT
               </Button>
               </ScrollLink>
-              <a href={file} download="Aman_Maurya_Resume"  >
+              <a href={file} download="Aman_Maurya_Resume.pdf"  >
               <Button
                 id="resume-link-1"
                 w="194px"

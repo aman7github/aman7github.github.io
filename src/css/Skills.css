@@ -1,13 +1,13 @@
 
-.skill{
+.skillAMAN{
     width: 100%;
     min-height: 47rem;
     /* border:1px solid blue; */
     background-color: black;
-    padding-top: 0.1rem;
+    padding: 0.1rem 0 2rem 0;
 }
 
-.skillP{
+.skillPAMAN{
     font-size: 2.6rem;
     font-weight: 600;
     /* border:1px solid red; */
@@ -17,7 +17,7 @@
    color: white;
 }
 
-.skillinside{
+.skillinsideAMAN{
     width: 65%;
     min-height: 34rem;
     border:1px solid white;

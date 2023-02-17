@@ -20,11 +20,11 @@ const Skills = () => {
 
 
   return (
-    <div className='skill' id="skills" >
+    <div className='skillAMAN' id="skills" >
     
-    <p className='skillP' >Skills</p>
+    <p className='skillPAMAN' >Skills</p>
 
-    <div className='skillinside' >
+    <div className='skillinsideAMAN' >
 
        {
         

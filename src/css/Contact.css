@@ -15,7 +15,7 @@
     color: rgb(177,7,255);
 }
 
-.icondiv{
+.icondivcontact{
     width: 60%;
     min-height: 20rem;
     border:1px solid white;
@@ -31,14 +31,14 @@
     margin: 1rem auto auto auto;
     color: white;
 }
-.email{
+.emailContact{
     text-align: left;
     font-size: 1.3rem;
     font-weight: 600;
     margin: 1rem 0 0 2rem;
     color: white;
 }
-.icons{
+.iconsContact{
     display: flex;
     margin-top: 2rem;
 }
@@ -48,14 +48,14 @@
 
 @media all and (max-width: 600px){
 
-    .icondiv{
+    .icondivcontact{
         width: 90%;
     }
-    .icons{
+    .iconsContact{
         flex-direction: column;
         gap:2rem;
     }
-    .email{
+    .emailContact{
         font-size: 0.8rem;
     }
 }

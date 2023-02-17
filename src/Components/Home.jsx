@@ -3,6 +3,7 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import {AiOutlineLinkedin,AiFillGithub} from "react-icons/ai"
 import Pic from "./aman3.jpg"
+import file from "./File/Resume.pdf"
 
 import "../css/Home3.css"
 
@@ -41,9 +42,15 @@ const Home = () => {
 
 
            <div className='first4' >
+            <a href="linkedin.com/in/aman-maurya-83a196263">
               <AiOutlineLinkedin className='link' />
+              </a>
+              <a href="https://github.com/aman7github">
               <AiFillGithub  className='git'/>
-              <button className='btn' id="resume-button-2" >Resume</button>
+              </a>
+              <a target="_blank" href={file}   download="Aman_Maurya_Resume.pdf" >
+              <button className='btn' id="resume-button-2"  >Resume</button>
+              </a>
            </div>
 
 
@@ -53,7 +60,7 @@ const Home = () => {
 
         <div  className='homesecond'>
         
-         <div className='Picdiv' >
+         <div className='PicdivHome' >
            <img src={Pic} alt="profile"   class="home-img" />
          </div>
 

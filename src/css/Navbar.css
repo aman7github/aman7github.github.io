@@ -9,7 +9,7 @@
     color: rgb(193, 191, 191);
     font-weight: 500;
 }
-.first{
+.firstdivAMAN{
     /* border:1px solid rgb(177,7,255); */
     width: 25%;
     min-height: 4rem;
@@ -20,7 +20,7 @@
     font-weight: 600;
     color: rgb(177,7,255);
 }
-.second{
+.seconddivAMAN{
     /* border:1px solid red; */
     width: 50%;
     min-height: 5rem;
@@ -29,7 +29,7 @@
     align-items: center;
   
 }
-#navhome{
+#navhomeAMAN{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 100%; */
@@ -41,11 +41,11 @@
     padding: 0 0.7rem;
     cursor: pointer;
 }
-#navhome:hover{
+#navhomeAMAN:hover{
     background-color: rgb(177,7,255);
     color: white;
 }
-#navabout{
+#navaboutAMAN{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 15%; */
@@ -57,11 +57,11 @@
     padding: 0 0.7rem;
     cursor: pointer;
 }
-#navabout:hover{
+#navaboutAMAN:hover{
     background-color: rgb(177,7,255);
     color: white;
 }
-#navskills{
+#navskillsAMAN{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 15%; */
@@ -73,11 +73,11 @@
     padding: 0 0.7rem;
     cursor: pointer;
 }
-#navskills:hover{
+#navskillsAMAN:hover{
     background-color: rgb(177,7,255);
     color: white;
 }
-#navprojects{
+#navprojectsAMAN{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 15%; */
@@ -89,11 +89,11 @@
     padding: 0 0.7rem;
     cursor: pointer;
 }
-#navprojects:hover{
+#navprojectsAMAN:hover{
     background-color: rgb(177,7,255);
     color: white;
 }
-#navresume{
+#navresumeAMAN{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 15%; */
@@ -105,11 +105,11 @@
     padding: 0 0.7rem;
     cursor: pointer;
 }
-#navresume:hover{
+#navresumeAMAN:hover{
     background-color: rgb(177,7,255);
     color: white;
 }
-#navcontact{
+#navcontactAMAN{
     border:none;
     min-height: 3rem;
     /* width: 15%; */
@@ -121,7 +121,7 @@
     padding: 0 0.7rem;
     cursor: pointer;
 }
-#navcontact:hover{
+#navcontactAMAN:hover{
     background-color: rgb(177,7,255);
     color: white;
 }
@@ -133,50 +133,50 @@
 
 
 
-@media all and (max-width: 1200px){
-    .navhome{
+@media all and (max-width: 1250px){
+    #navhomeAMAN{
         font-size: 0.5rem;
         padding: 0 0.2rem;
         /* width: 13%;    */
     }
-    .navskills{
+    #navskillsAMAN{
         font-size: 0.5rem;
         /* width: 13%;    */
         padding: 0 0.2rem;
     }
-    .navprojects{
+    #navprojectsAMAN{
         font-size: 0.5rem;
         /* width: 13%;    */
         padding: 0 0.2rem;
     }
-    .navcontact{
+    #navcontactAMAN{
         font-size: 0.5rem;
         /* width: 13%;    */
         padding: 0 0.2rem;
     }
-    .navresume{
+    #navresumeAMAN{
         font-size: 0.5rem;
         padding: 0 0.2rem;
         /* width: 13%;    */
     }
-    .second{
+    .seconddivAMAN{
        width:70%;
     }
-    .first{
+    .firstdivAMAN{
         width:30%;
         font-size: 1.2rem;
     }
 }
 
 @media all and (max-width: 730px){
-    .second{
+    #seconddivAMAN{
         display: none; 
     }
-    .first{
+    .firstdivAMAN{
         width:52%;
         font-size: 0.8rem;
     }
-    .ham{
+    .hamAMAN{
         margin-right: 3rem;
         display: block;
     }

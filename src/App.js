@@ -8,10 +8,11 @@ import Git from "./Components/Git"
 import Skills from "./Components/Skills"
 import Contact from './Components/Contact';
 
+
 function App() {
   return (
     <div className="App">
-      <Navbar />
+        <Navbar />
       <Home />
       <About />
       <Project />
