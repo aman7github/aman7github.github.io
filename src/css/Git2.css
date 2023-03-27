@@ -1,5 +1,11 @@
 
-
+/* body{
+    margin: 0;
+     padding:0; 
+     box-sizing: border-box;
+     overflow-x: hidden;
+     border:1px solid red;
+} */
 .GitContainerAMAN{
     width: 100%;
     min-height: 50rem;
@@ -16,14 +22,15 @@
     margin: 0 0 0 -50rem;
     /* border:1px solid red; */
     font-weight: 600;
-    color: rgb(177,7,255);
+    color: orange;
 }
 .gitP2AMAN{
     font-size: 1.2rem;
     width: 75%;
     /* border:1px solid red; */
     margin: 0.5rem 0 0 -43rem;
-    color: white;
+    /* color: white; */
+    color: rgb(199, 192, 192);
 }
 .calendarPAMAN{
     font-size: 2.4rem;
@@ -31,10 +38,11 @@
     /* border:1px solid white; */
    text-align: left;
    margin-bottom: 1rem;
-   color: white;
+   /* color: white; */
+   color: rgb(199, 192, 192);
 }
 .calendarDivAMAN{
-    border:1px solid white;
+    border:1px solid rgb(199, 192, 192);;
     width: 60%;
     margin:2rem;
     min-height: 15rem;
@@ -43,7 +51,7 @@
 }
 
 .StatsAMAN{
-    border:1px solid white;
+    border:1px solid rgb(199, 192, 192);;
     width: 60%;
     margin:2rem;
     min-height: 35rem;
@@ -62,40 +70,58 @@
    text-align: left;
    margin-bottom: 1rem;
    width:100%;
-   color: white;
+   /* color: white; */
+   color: rgb(199, 192, 192);
 }
 
-#github-stats-card{
+
+.github-stats-card{
     border-radius: 0.7rem;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.github-top-langs{
+    border-radius: 0.5rem;
     border:1px solid black;
     margin-top: 1rem;
+    width:100%
    
+   
+}
+
+.github-streak-stats{
+    border-radius: 0.5rem;
+    border:1px solid black;
+    margin-top: 1rem;
+    width:100%
     
 }
 
-#github-top-langs{
-    border-radius: 0.5rem;
-    border:1px solid black;
-    margin-top: 1rem;
-    width: 58%;
-   
+.allAMAN{
+    width: 60%;
+    border: 1px solid black;
 }
-
-#github-streak-stats{
-    border-radius: 0.5rem;
-    border:1px solid black;
-    margin-top: 1rem;
-    width: 57%;
-}
-
 .streakAMAN{
-    width: 100%; 
+    width: 100%;
+    margin-bottom: 1rem;
+ 
 }
 .stats1AMAN{
     width:100%;
-    margin-left: -1rem;
+  
 }
-@media all and (max-width: 500px){
+/* @media all and (max-width: 1250px){
+    body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    }
+} */
+
+@media all and (max-width: 600px){
 
     .calendarDivAMAN{
         width: 100%;
@@ -104,5 +130,5 @@
    .StatsAMAN{
     width:100%;
    }
-
+ 
 }

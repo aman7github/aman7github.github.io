@@ -1,4 +1,9 @@
-
+/* body{
+    margin: 0;
+     padding:0; 
+     box-sizing: border-box;
+     overflow-x: hidden;
+} */
 .ProjetContainer{
     width:100%;
     min-height: 102rem;
@@ -8,28 +13,29 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    
+    padding-bottom: 3rem;
   }
-  
   
   .firsrP{
       font-size: 3rem;
       width: 38%;
-      margin: 0 0 0 -64rem;
-      color: rgb(177,7,255);
+      margin: 0 0 0 -54rem;
+      color: orange;
       font-weight: 600;
   
   }
   .secondP{
       font-size: 1.2rem;
       width: 50%;
-      margin: 0 0 0 -54rem;
-      color: white;
+      margin: 0 0 0 -44rem;
+      /* color: white; */
+      color: rgb(199, 192, 192);
   }
+
   .project-card{
       width:75%;
       min-height: 400px;
-      border:1px solid white;
+      border:1px solid rgb(199, 192, 192);;
       margin-top: 5rem;
       display: flex;
       justify-content: center;
@@ -57,23 +63,27 @@
   .project-title{
       font-size: 2rem;
       font-weight: 700;
-      color: white;
+      /* color: white; */
+      color: rgb(199, 192, 192);
   }
   .Pr2{
       font-size: 1.3rem;
       margin-top: 0.5rem;
-      color: white;
+      /* color: white; */
+      color: rgb(199, 192, 192);
   }
   .project-description{
       font-size: 1.3rem;
       margin-top: 0.5rem;
-      color: white;
+      /* color: white; */
+      color: rgb(199, 192, 192);
   }
   .project-tech-stack{
       font-size: 1.05rem;
       margin-top: 1rem;
       font-weight: 600;
-      color: white;
+      /* color: white; */
+      color: rgb(199, 192, 192);
   }
   .btnDiv{
       /* border:1px solid blue; */
@@ -95,29 +105,31 @@
   } */
   
   .project-github-link{
-      border:1px solid white;
+      border:1px solid rgb(199, 192, 192);;
       font-size: 1.2rem;
       width: 8.5rem;
       min-height:2.3rem ;
       border-radius:8px ;
       font-weight: 700;
-      color: white;
+      /* color: white; */
+      color: rgb(199, 192, 192);
   }
   .project-github-link:hover{
       background-color: white;
       color: black;
   }
   .project-deployed-link{
-      border:1px solid white;
+      border:1px solid rgb(199, 192, 192);;
       font-size: 1.2rem;
       width: 8.5rem;
       min-height:2.3rem ;
       border-radius:8px ;
       font-weight: 700;
-      color: white;
+      /* color: white; */
+      color: rgb(199, 192, 192);
   }
   .project-deployed-link:hover{
-      background-color: white;
+      background-color: rgb(199, 192, 192);;
       color: black;
   }
   
@@ -137,6 +149,21 @@
           width: 72%;
           text-align: center;
       }
+      /* body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    } */
   
   }
-  
+
+  /* @media all and (max-width: 600px){
+    body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    }
+  }
+   */

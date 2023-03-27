@@ -31,7 +31,7 @@ const Skills = () => {
         links.map((el)=>{
             return <div key={el.id} className="skills-card" >
                      <img src={el.img} alt="pic" className='skills-card-img'  />
-
+                      <p className='skills-card-name' >sikk</p>
                   </div>
                    
         })

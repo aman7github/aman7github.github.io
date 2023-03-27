@@ -1,21 +1,30 @@
-.aboutsectionAMAN{
+
+#about{
     /* border:1px solid red; */
     width: 100%;
     min-height: 300px;
     background-color: rgb(26,26,26);
-    padding: 3rem 0 3rem 0;
-   
+    padding: 3rem 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
+
 .aboutinsideAMAN{
     width: 70%;
     min-height: 300px;
-    /* border:1px solid red; */
-    margin-left: 200px;
+    /* border:1px solid blue; */
+    /* margin-left: 200px; */
     display: flex;
     justify-content: space-between;
 }
 .animationAMAN{
-    /* border:1px solid red; */
+    /* border:1px solid green; */
     width: 45%;
 }
 .animationPicAMAN{
@@ -23,35 +32,99 @@
     margin: 1rem 0 0 0;
 }
 .infoAMAN{
-    /* border:1px solid red; */
+    /* border:1px solid green; */
     width: 47%;
     text-align: left;
 }
 .P1AMAN{
     font-size: 3rem;
-    color:rgb(177,7,255);
+    /* color:rgb(177,7,255); */
+    color:orange;
     font-weight: 500;
 }
 .P2AMAN{
     font-size: 1.2rem;
-    color: white;
+    /* color: white; */
+    color: rgb(199, 192, 192);
 }
 
 @media all and (max-width: 1200px){
 
     .aboutinsideAMAN{
+        /* padding: 3rem 0 1rem 0; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow-x: hidden;
+
+    }
+    #about{
+        
+        max-width: 100%;
+        margin: auto;
+       
     }
     .animationAMAN{
-        width: 100%;
+        width: 80%;
     }
     .infoAMAN{
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
     .animationPicAMAN{
         width: 80%;
     }
+    .P1AMAN{
+        font-size: 2.5rem;
+    }
+    .P2AMAN{
+        font-size: 1rem;
+        /* color: white; */
+        color: rgb(199, 192, 192);
+    }
+    /* body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    } */
 }
+ @media all and (max-width: 600px){
+    /* body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    } */
+    .aboutinsideAMAN{
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    #about{
+        
+        max-width: 100%;
+        margin: auto;
+       
+    }
+    .animationAMAN{
+        width: 80%;
+    }
+    .infoAMAN{
+        width: 80%;
+        text-align: center;
+    }
+    .animationPicAMAN{
+        width: 80%;
+    }
+    .P1AMAN{
+        font-size: 2.1rem;
+    }
+    .P2AMAN{
+        font-size: 0.8rem;
+        /* color: white; */
+        color: rgb(199, 192, 192);
+    }
+ }

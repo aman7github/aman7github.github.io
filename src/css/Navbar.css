@@ -1,11 +1,17 @@
-
-.nav-menu{
+/* body{
+    margin: 0;
+     padding:0; 
+     box-sizing: border-box;
+     overflow-x: hidden;
+} */
+#nav-menu{
     width: 100%;
     min-height: 4.5rem;
     /* border:1px solid red; */
     display: flex;
     justify-content: space-between; 
     background-color: rgb(26,26,26);
+    /* background-color: black; */
     color: rgb(193, 191, 191);
     font-weight: 500;
 }
@@ -18,7 +24,8 @@
     margin-left: 1rem;
     font-size: 1.7rem;
     font-weight: 600;
-    color: rgb(177,7,255);
+    /* color: rgb(177,7,255); */
+    color:orange;
 }
 .seconddivAMAN{
     /* border:1px solid red; */
@@ -29,11 +36,11 @@
     align-items: center;
   
 }
-#navhomeAMAN{
+#resume-button-1{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 100%; */
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,15 +48,16 @@
     padding: 0 0.7rem;
     cursor: pointer;
 }
-#navhomeAMAN:hover{
-    background-color: rgb(177,7,255);
-    color: white;
+#resume-button-1:hover{
+    /* background-color: rgb(177,7,255); */
+    background-color: orange;
+    color: black;
 }
 #navaboutAMAN{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 15%; */
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,14 +66,15 @@
     cursor: pointer;
 }
 #navaboutAMAN:hover{
-    background-color: rgb(177,7,255);
-    color: white;
+    /* background-color: rgb(177,7,255); */
+    background-color: orange;
+    color: black;
 }
 #navskillsAMAN{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 15%; */
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,14 +83,15 @@
     cursor: pointer;
 }
 #navskillsAMAN:hover{
-    background-color: rgb(177,7,255);
-    color: white;
+    /* background-color: rgb(177,7,255); */
+    background-color: orange;
+    color: black;
 }
 #navprojectsAMAN{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 15%; */
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,30 +100,33 @@
     cursor: pointer;
 }
 #navprojectsAMAN:hover{
-    background-color: rgb(177,7,255);
-    color: white;
+    /* background-color: rgb(177,7,255); */
+    background-color: orange;
+    color: black;
 }
 #navresumeAMAN{
     /* border:1px solid rgb(193, 191, 191); */
     min-height: 3rem;
     /* width: 15%; */
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
     padding: 0 0.7rem;
     cursor: pointer;
+    font-weight: 600;
 }
 #navresumeAMAN:hover{
-    background-color: rgb(177,7,255);
-    color: white;
+    /* background-color: rgb(177,7,255); */
+    background-color: orange;
+    color: black;
 }
 #navcontactAMAN{
     border:none;
     min-height: 3rem;
     /* width: 15%; */
-    font-size: 1rem;
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,54 +135,72 @@
     cursor: pointer;
 }
 #navcontactAMAN:hover{
-    background-color: rgb(177,7,255);
-    color: white;
+    /* background-color: rgb(177,7,255); */
+    background-color: orange;
+    color: black;
 }
 
-.ham{
+.hamAMAN{
     margin-right: 3rem;
     display: none;
 }
 
 
 
+
 @media all and (max-width: 1250px){
-    #navhomeAMAN{
-        font-size: 0.5rem;
-        padding: 0 0.2rem;
-        /* width: 13%;    */
-    }
-    #navskillsAMAN{
-        font-size: 0.5rem;
-        /* width: 13%;    */
-        padding: 0 0.2rem;
-    }
-    #navprojectsAMAN{
-        font-size: 0.5rem;
-        /* width: 13%;    */
-        padding: 0 0.2rem;
-    }
-    #navcontactAMAN{
-        font-size: 0.5rem;
-        /* width: 13%;    */
-        padding: 0 0.2rem;
-    }
-    #navresumeAMAN{
-        font-size: 0.5rem;
-        padding: 0 0.2rem;
-        /* width: 13%;    */
-    }
-    .seconddivAMAN{
-       width:70%;
-    }
-    .firstdivAMAN{
-        width:30%;
-        font-size: 1.2rem;
-    }
+    /* body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    } */
+ #navhomeAMAN{
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+ }
+ #navskillsAMAN{
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+ }
+#navprojectsAMAN{
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+}
+#navcontactAMAN{
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+}
+#navresumeAMAN{
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+}
+#navaboutAMAN{
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+}
+.seconddivAMAN{
+    width:70%
+}
+.firstdivAMAN{
+    width:30%;
+    font-size: 1.2rem;
 }
 
+
+}
+/* 
+@media all and (max-width: 1250px){
+    body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    }
+} */
+
 @media all and (max-width: 730px){
-    #seconddivAMAN{
+    .seconddivAMAN{
         display: none; 
     }
     .firstdivAMAN{
@@ -180,4 +211,10 @@
         margin-right: 3rem;
         display: block;
     }
+    /* body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    } */
 }

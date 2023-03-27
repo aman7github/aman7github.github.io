@@ -90,6 +90,45 @@ const Project = () => {
    </div>
 
 
+
+         
+
+
+
+
+
+
+   <div className="project-card" data-aos="fade-right" >
+    <div className='Pro1a' >
+        <img src={Sales} alt="pic" />
+    </div>
+
+    <div className='Pro1b' >
+      <p className='project-title' >Modesens Clone</p>
+      <p className='project-description' > Automatically compare products across 500+ stores while you browse at any of our partner stores' websites. VIEW MORE. Compare Price. Offer you the largest selections and most trustworthy shopping experience online.</p>
+      <p className='Pr2' >An Individual Project executed in 5 days.</p>
+      <p className='project-tech-stack' >TECH STACKS - HTML | CSS | JavaScript</p>
+
+      <div className='btnDiv' >
+        <a href="https://gilded-sunshine-069a8e.netlify.app/">
+        <button className='project-deployed-link' >Live Demo</button>
+        </a>
+        <a href="https://github.com/SumitPokhriyal5/grubby-mitten-8672">
+        <button className='project-github-link' >Source Code</button>
+        </a>
+      </div>
+
+    </div>
+   </div>
+
+
+
+
+
+
+
+
+
     </div>
   )
 }

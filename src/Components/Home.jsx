@@ -9,19 +9,22 @@ import "../css/Home3.css"
 
 const Home = () => {
 
-
+  // const navigate = useNavigate()
+  const Download = () => {
+        window.open("https://drive.google.com/file/d/1Ka_kTQH7kMstCNMQ8LaTTWVM4vuLeF4P/view?usp=share_link")
+  }
   return (
     <div  className='mainhome' id="home" >
 
         <div className='homefirst' >
 
-           <div className='first1' >
+           <div className='first1' id="user-detail-name" >
               Hii,  I am Aman Kumar Maurya
            </div>
 
 
            <div className='first2'>
-           <span style={{ color: 'white', fontSize:"2rem" }}>
+           <span style={{ color: 'rgb(199, 192, 192)', fontSize:"2rem" }}>
           <Typewriter
             words={['Full Stack Web Developer', 'Problem Solver', 'A Tech Enthusiast']}
             loop={15}
@@ -37,20 +40,28 @@ const Home = () => {
 
 
            <div className='first3' >
-           A self-motivated, hard-working, and ambitious Web Developer with proficiency in MERN Stack. Developing websites using Javascript, React, Redux, and Chakra UI. Looking forward to working as an accountable and competent employee in an exciting Tech company.
+           A self-motivated, hard-working, and ambitious Web Developer with proficiency in MERN Stack. Developing websites using JavaScript, React, Redux and Chakra UI. Looking forward to working as an accountable and competent employee in an exciting Tech company.
            </div>
 
 
            <div className='first4' >
-            <a href="linkedin.com/in/aman-maurya-83a196263">
-              <AiOutlineLinkedin className='link' />
+
+
+              <a href="https://www.linkedin.com/in/aman-maurya-83a196263" target={"_blank"} >
+                <AiOutlineLinkedin className='link' />
               </a>
+
               <a href="https://github.com/aman7github">
               <AiFillGithub  className='git'/>
               </a>
-              <a target="_blank" href={file}   download="Aman_Maurya_Resume.pdf" >
-              <button className='btn' id="resume-button-2"  >Resume</button>
-              </a>
+              
+              <button className='btn' id="resume-button-2" >3
+              <a  href={file}   download="Aman_Kumar_Maurya_Resume.pdf" id="resume-link-2" onClick={Download} >
+
+                Resume
+                </a>
+                </button>
+             
            </div>
 
 
@@ -61,7 +72,7 @@ const Home = () => {
         <div  className='homesecond'>
         
          <div className='PicdivHome' >
-           <img src={Pic} alt="profile"   class="home-img" />
+           <img src={Pic} alt="profile"   className="home-img" />
          </div>
 
         </div>

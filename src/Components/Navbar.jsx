@@ -19,10 +19,14 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 
 const Navbar = () => {
 
-  return (
-    <div className='nav-menu' >
+  const handleDownload = () => {
+    window.open("https://drive.google.com/file/d/1Ka_kTQH7kMstCNMQ8LaTTWVM4vuLeF4P/view?usp=share_link")
+}
 
-     <div className='firstdivAMAN'id="user-detail-name" >
+  return (
+    <div id='nav-menu' >
+
+     <div className='firstdivAMAN' id="user-detail-name" >
        AMAN KUMAR MAURYA
      </div>
 
@@ -33,7 +37,7 @@ const Navbar = () => {
         </ScrollLink>
 
         <ScrollLink to="about" smooth={true}  duration={500} >
-        <div className='nav-link about' id="navabouAMANt" >ABOUT</div>
+        <div className='nav-link about' id="navaboutAMAN" >ABOUT</div>
         </ScrollLink>
 
         <ScrollLink to="projects" smooth={true}  duration={1000} >
@@ -48,15 +52,15 @@ const Navbar = () => {
         <div className='nav-link contact' id="navcontactAMAN" >CONTACTS</div>
         </ScrollLink>
 
-       <a href={file}   download="Aman_Maurya_Resume.pdf"  target="_blank" >
-       <button className='nav-link resume' id="navresumeAMAN"  >RESUME</button>
+       <a href={file}   download="Aman_Maurya_Resume.pdf"  target="_blank" className='nav-link resume' id="resume-link-1"  >
+       <button   id="resume-button-1"  onClick={handleDownload} >RESUME</button>
        </a>
 
     
       </div>
 
 
-      <div className='ham' >
+      <div className='hamAMAN' >
        <Flex justifyContent="center" mt={4}>
         <Popover placement="bottom" isLazy>
         <PopoverTrigger>
@@ -133,17 +137,17 @@ const Navbar = () => {
                 CONTACT
               </Button>
               </ScrollLink>
-              <a href={file} download="Aman_Maurya_Resume.pdf"  >
+              <a  href={file}   download="Aman_Maurya_Resume.pdf"  target="_blank"  id="resume-link-1" >
               <Button
-                id="resume-link-1"
+                id="resume-button-1"
                 w="194px"
                 variant="ghost"
                 justifyContent="space-between"
-                fontWeight="normal"
+                fontWeight="bold"
                 colorScheme="red"
                 fontSize="sm"
-                target="_blank" >
-
+                onClick={handleDownload}
+                >
                 RESUME
               </Button>
               </a>
@@ -153,8 +157,6 @@ const Navbar = () => {
       </Popover>
     </Flex>
 
-
-   
   </div>
 
     </div>

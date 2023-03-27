@@ -1,3 +1,10 @@
+/* body{
+    margin: 0;
+     padding:0; 
+     box-sizing: border-box;
+     overflow-x: hidden;
+} */
+
 .contact{
     width: 100%;
     min-height: 30rem;
@@ -12,13 +19,13 @@
     width: 90%;
     margin: 4rem auto auto auto;
     font-weight: 600;
-    color: rgb(177,7,255);
+    color: orange;
 }
 
 .icondivcontact{
     width: 60%;
     min-height: 20rem;
-    border:1px solid white;
+    border:1px solid rgb(193, 191, 191);;
     margin: 2rem auto auto auto;
     border-radius: 0.5rem;
 }
@@ -29,14 +36,16 @@
     text-align: center;
     width: 90%;
     margin: 1rem auto auto auto;
-    color: white;
+    /* color: white; */
+    color: rgb(193, 191, 191);
 }
 .emailContact{
     text-align: left;
     font-size: 1.3rem;
     font-weight: 600;
     margin: 1rem 0 0 2rem;
-    color: white;
+    /* color: white; */
+    color: rgb(193, 191, 191);
 }
 .iconsContact{
     display: flex;
@@ -44,6 +53,14 @@
 }
 .link{
   margin-left: 3rem;
+}
+@media all and (max-width: 1250px){
+    /* body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    } */
 }
 
 @media all and (max-width: 600px){
@@ -58,4 +75,10 @@
     .emailContact{
         font-size: 0.8rem;
     }
+    /* body{
+        margin: 0;
+         padding:0; 
+         box-sizing: border-box;
+         overflow-x: hidden;
+    } */
 }

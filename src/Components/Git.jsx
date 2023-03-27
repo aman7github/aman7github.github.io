@@ -3,6 +3,8 @@ import React from 'react'
 import GitHubCalendar from "react-github-calendar"
 import  {Tooltip}  from 'react-tooltip'
 import "../css/Git2.css"
+
+
 const Git = () => {
 
 
@@ -16,52 +18,52 @@ const Git = () => {
 
      <div className='calendarDivAMAN' >
       <p className='calendarPAMAN' >Git Calendar</p>
-     <GitHubCalendar  username='aman7github'  blockSize={14}  fontSize={14} />
+     <GitHubCalendar  username='aman7github'  blockSize={14}  fontSize={14}  className="react-activity-calendar" />
      <Tooltip   />
 
      </div>
 
 
      <div className='StatsAMAN' >
-      {/* <div style={{ width: "40%", margin: "auto" }}>
-        <a href="https://github.com/aman7github">
-          <img
-            align="left"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=aman7github"
-          />
-        </a>
-      </div> */}
+   
 
       <p className='statsPAMAN' >Git Stats</p>
+      
+      <div className='allAMAN' >
 
-      <div id="github-streak-stats">
-        <a href="https://github.com/aman7github">
-          <img className='streakAMAN'
-            align="left"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=aman7github"
-          />
-        </a>
+   
+
+      <div className="github-streak-stats" >
+         <a href="https://github.com/aman7github">
+           <img className='streakAMAN'
+              align="left"
+              id="github-streak-stats"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=aman7github" alt="pic" />
+
+         </a>
       </div>
- 
-        <div id="github-stats-card"  >
-        <a href="https://github.com/saurabh0413">
-          <img 
-            align="left" className='stats1AMAN'
-            src="https://github-readme-stats.vercel.app/api?username=aman7github&count_private=true&show_icons=true" //stats
-          />
-        </a>
-      </div>
+
+
+        <div className="github-stats-card" >
+           <a  href="https://github.com/aman7github">
+             <img className='stats1AMAN'
+             id="github-stats-card"
+              src="https://github-readme-stats.vercel.app/api?username=aman7github&count_private=true&show_icons=true" alt="pic" />
+           </a>
+        </div>
        
-      <div  id="github-top-langs" >
+      <div  className="github-top-langs" >
         <a href="https://github.com/aman7github">  
           <img
             align="center" style={{width:"100%"}}
+            id="github-top-langs"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=aman7github"  //launguages
           />
         </a>
         </div>
 
-
+   
+        </div>
 
 
 
