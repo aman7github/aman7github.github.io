@@ -13,12 +13,12 @@
 }
 
 .skillPAMAN{
-    font-size: 2.6rem;
+    font-size: 2.3rem;
     font-weight: 600;
     /* border:1px solid red; */
    text-align: left;
    margin: 2rem 0 0 10rem;
-   width:100%;
+   width:30%;
    /* color: white; */
    color: rgb(199, 192, 192);
 }
@@ -67,6 +67,13 @@
         width: 90%;
       
     }
+
+    .skillPAMAN{
+       font-size: 2.2rem;
+       width:40%;
+       margin: 1rem 0 0 3rem;
+   
+    }
 }
 @media all and (max-width: 600px){
  
@@ -80,4 +87,9 @@
         width: 100%;
      
     }
+    .skillPAMAN{
+        font-size: 1.7rem;
+        width:30%;
+        margin: 0;
+     }
 }

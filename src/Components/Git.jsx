@@ -14,11 +14,11 @@ const Git = () => {
     <div className='GitContainerAMAN' >
 
      <p className='gitP1AMAN' >Git Stats</p>
-     <p  className='gitP2' >Lets get into some statistics. Shall we?</p>
+     {/* <p  className='gitP2' >Lets get into some statistics. Shall we?</p> */}
 
      <div className='calendarDivAMAN' >
       <p className='calendarPAMAN' >Git Calendar</p>
-     <GitHubCalendar  username='aman7github'  blockSize={14}  fontSize={14}  className="react-activity-calendar" />
+     <GitHubCalendar  username='aman7github'  blockSize={14}  fontSize={3}  className="react-activity-calendar" />
      <Tooltip   />
 
      </div>

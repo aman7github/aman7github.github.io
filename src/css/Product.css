@@ -1,9 +1,4 @@
-/* body{
-    margin: 0;
-     padding:0; 
-     box-sizing: border-box;
-     overflow-x: hidden;
-} */
+
 .ProjetContainer{
     width:100%;
     min-height: 102rem;
@@ -17,19 +12,23 @@
   }
   
   .firsrP{
-      font-size: 3rem;
+      font-size: 2.8rem;
       width: 38%;
-      margin: 0 0 0 -54rem;
+ 
       color: orange;
       font-weight: 600;
+      /* border:1px solid green; */
+
   
   }
   .secondP{
       font-size: 1.2rem;
       width: 50%;
-      margin: 0 0 0 -44rem;
+   
       /* color: white; */
       color: rgb(199, 192, 192);
+    /* border:1px solid green; */
+
   }
 
   .project-card{
@@ -83,7 +82,7 @@
       margin-top: 1rem;
       font-weight: 600;
       /* color: white; */
-      color: rgb(199, 192, 192);
+      color: orange;
   }
   .btnDiv{
       /* border:1px solid blue; */
@@ -149,21 +148,39 @@
           width: 72%;
           text-align: center;
       }
-      /* body{
-        margin: 0;
-         padding:0; 
-         box-sizing: border-box;
-         overflow-x: hidden;
-    } */
+      .project-github-link{
+        font-size: 0.9rem;
+        width: 7rem;
+        font-weight: 600;
+     
+    }
+    .project-deployed-link{
+        font-size: 0.9rem;
+        width: 7rem;
+        font-weight: 600;
+ 
+    }
+ 
   
   }
 
-  /* @media all and (max-width: 600px){
-    body{
-        margin: 0;
-         padding:0; 
-         box-sizing: border-box;
-         overflow-x: hidden;
+  @media all and (max-width: 600px){
+    .btnDiv{
+        /* border:1px solid blue; */
+        width: 90%;
+        margin: 1.5rem auto auto auto;
+        flex-direction: column;
+    }
+
+    .firsrP{
+        font-size: 1.7rem;
+        width: 60%;
+    
+    }
+    .secondP{
+        font-size: 0.9rem;
+        width: 80%;
+  
     }
   }
-   */
+   

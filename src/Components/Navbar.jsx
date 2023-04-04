@@ -2,6 +2,7 @@ import React from 'react'
 import "../css/Navbar.css"
 import {Link as ScrollLink} from "react-scroll"
 import file from "./File/Resume.pdf"
+import Download from './Handleclick'
 
 
 import {
@@ -19,9 +20,7 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 
 const Navbar = () => {
 
-  const handleDownload = () => {
-    window.open("https://drive.google.com/file/d/1Ka_kTQH7kMstCNMQ8LaTTWVM4vuLeF4P/view?usp=share_link")
-}
+ 
 
   return (
     <div id='nav-menu' >
@@ -52,16 +51,20 @@ const Navbar = () => {
         <div className='nav-link contact' id="navcontactAMAN" >CONTACTS</div>
         </ScrollLink>
 
-       <a href={file}   download="Aman_Maurya_Resume.pdf"  target="_blank" className='nav-link resume' id="resume-link-1"  >
-       <button   id="resume-button-1"  onClick={handleDownload} >RESUME</button>
-       </a>
+       
+       <button   id="resume-button-1"   >
+       <a href={file}   download="Aman_Maurya_Resume.pdf" onClick={Download}  className='nav-link resume' id="resume-link-1"  >
+          RESUME
+        </a>
+        </button>
+      
 
     
       </div>
 
 
-      <div className='hamAMAN' >
-       <Flex justifyContent="center" mt={4}>
+      <div className='hamAMAN' style={{zIndex:"10"}} >
+       <Flex justifyContent="center" mt={4}  >
         <Popover placement="bottom" isLazy>
         <PopoverTrigger>
           <IconButton
@@ -83,6 +86,7 @@ const Navbar = () => {
               
                 justifyContent="space-between"
                 fontWeight="normal"
+                colorScheme="red"
                 fontSize="sm">
                 HOME
               </Button>
@@ -137,7 +141,7 @@ const Navbar = () => {
                 CONTACT
               </Button>
               </ScrollLink>
-              <a  href={file}   download="Aman_Maurya_Resume.pdf"  target="_blank"  id="resume-link-1" >
+       
               <Button
                 id="resume-button-1"
                 w="194px"
@@ -146,11 +150,13 @@ const Navbar = () => {
                 fontWeight="bold"
                 colorScheme="red"
                 fontSize="sm"
-                onClick={handleDownload}
+               
                 >
-                RESUME
+                     <a  href={file}   download="Aman_Maurya_Resume.pdf"   onClick={Download} id="resume-link-1" >   
+                      RESUME
+                     </a>
               </Button>
-              </a>
+             
             </Stack>
           </PopoverBody>
         </PopoverContent>

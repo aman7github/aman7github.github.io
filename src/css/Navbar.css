@@ -14,6 +14,9 @@
     /* background-color: black; */
     color: rgb(193, 191, 191);
     font-weight: 500;
+    position: fixed;
+    z-index: 10;
+    overflow-x: hidden;
 }
 .firstdivAMAN{
     /* border:1px solid rgb(177,7,255); */
@@ -139,9 +142,26 @@
     background-color: orange;
     color: black;
 }
+#navhomeAMAN{
+    border:none;
+    min-height: 3rem;
+    /* width: 15%; */
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 0.7rem;
+    cursor: pointer;
+ }
+ #navhomeAMAN:hover{
+    /* background-color: rgb(177,7,255); */
+    background-color: orange;
+    color: black;
+}
 
 .hamAMAN{
-    margin-right: 3rem;
+    z-index: 10;
     display: none;
 }
 
@@ -200,6 +220,7 @@
 } */
 
 @media all and (max-width: 730px){
+    
     .seconddivAMAN{
         display: none; 
     }
@@ -208,13 +229,10 @@
         font-size: 0.8rem;
     }
     .hamAMAN{
-        margin-right: 3rem;
+        z-index: 10;
         display: block;
+        position: fixed;
+        right: 0;
     }
-    /* body{
-        margin: 0;
-         padding:0; 
-         box-sizing: border-box;
-         overflow-x: hidden;
-    } */
+  
 }

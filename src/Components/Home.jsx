@@ -4,15 +4,14 @@ import { Typewriter } from 'react-simple-typewriter'
 import {AiOutlineLinkedin,AiFillGithub} from "react-icons/ai"
 import Pic from "./aman3.jpg"
 import file from "./File/Resume.pdf"
+import Download from './Handleclick'
 
 import "../css/Home3.css"
 
 const Home = () => {
 
   // const navigate = useNavigate()
-  const Download = () => {
-        window.open("https://drive.google.com/file/d/1Ka_kTQH7kMstCNMQ8LaTTWVM4vuLeF4P/view?usp=share_link")
-  }
+ 
   return (
     <div  className='mainhome' id="home" >
 
@@ -55,7 +54,7 @@ const Home = () => {
               <AiFillGithub  className='git'/>
               </a>
               
-              <button className='btn' id="resume-button-2" >3
+              <button className='btn' id="resume-button-2" >
               <a  href={file}   download="Aman_Kumar_Maurya_Resume.pdf" id="resume-link-2" onClick={Download} >
 
                 Resume
