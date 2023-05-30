@@ -46,7 +46,7 @@ const Home = () => {
            <div className='first4' >
 
 
-              <a href="https://www.linkedin.com/in/aman-maurya-83a196263" target={"_blank"} >
+              <a href="https://www.linkedin.com/in/aman-maurya7/" target={"_blank"} >
                 <AiOutlineLinkedin className='link' />
               </a>
 

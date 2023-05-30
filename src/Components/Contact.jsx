@@ -18,7 +18,7 @@ const Contact = () => {
            <div className='git' id="contact-github" > <BsGithub /> </div>
          
            </a>
-           <a href="https://www.linkedin.com/in/aman-maurya-83a196263" >
+           <a href="https://www.linkedin.com/in/aman-maurya7/" >
            <div className='link'  id="contact-linkedin" > <BsLinkedin /> </div>
            </a>
           
