@@ -32,7 +32,7 @@ const Git = () => {
       <div className='allAMAN' >
 
    
-
+      //https://github-readme-streak-stats.herokuapp.com/?user=aman7github
       <div className="github-streak-stats" >
          <a href="https://github.com/aman7github">
            <img className='streakAMAN'

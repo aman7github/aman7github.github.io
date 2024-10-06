@@ -6,6 +6,7 @@ import Pic from "./aman3.jpg"
 import file from "./File/Resume.pdf"
 import Download from './Handleclick'
 
+
 import "../css/Home3.css"
 
 const Home = () => {
@@ -18,13 +19,14 @@ const Home = () => {
         <div className='homefirst' >
 
            <div className='first1' id="user-detail-name" >
-              Hii,  I am Aman Kumar Maurya
+              Hi, I am Aman Kumar Maurya.
            </div>
 
 
            <div className='first2'>
            <span style={{ color: 'rgb(199, 192, 192)', fontSize:"2rem" }}>
           <Typewriter
+            
             words={['Full Stack Web Developer', 'Problem Solver', 'A Tech Enthusiast']}
             loop={15}
             cursor
@@ -46,7 +48,7 @@ const Home = () => {
            <div className='first4' >
 
 
-              <a href="https://www.linkedin.com/in/aman-maurya7/" target={"_blank"} >
+              <a href="https://www.linkedin.com/in/aman-maurya7/" target={"_blank"}  >
                 <AiOutlineLinkedin className='link' />
               </a>
 

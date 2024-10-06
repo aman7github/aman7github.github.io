@@ -9,7 +9,8 @@
     width: 100%;
     min-height: 30rem;
     /* border:1px solid red; */
-    background-color: rgb(26,26,26);
+    /* background-color: rgb(26,26,26); */
+    background-color: black;
     padding-top: 0.5rem;
 }
 
@@ -75,6 +76,9 @@
     .emailContact{
         font-size: 0.8rem;
     }
+    .link{
+        margin-left: 2rem;
+      }
     /* body{
         margin: 0;
          padding:0; 

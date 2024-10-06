@@ -115,3 +115,31 @@
     background-color: white;
     color: black;
 }
+
+
+
+
+@media all and (max-width: 600px){
+
+    .Pro1a{
+        width: 92%;
+       
+    }
+    .project-card{
+  
+        width:95%;
+   
+    }
+    .pic{
+        width:100%;
+    }
+
+    .ProjetContainer{
+        width:100%;
+    }
+
+
+
+
+
+}

@@ -9,11 +9,12 @@
    
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    /* background-color: black; */
     background-color: rgb(26,26,26);
     width:100%;
     min-height: 37rem;
     padding: 1rem 0;
+ 
 
 }
 
@@ -24,6 +25,7 @@
     align-items: center;
     width: 60%;
     min-height: 39.9rem;
+  
    
 }
 
@@ -34,12 +36,13 @@
     min-height: 8rem;
     /* color: rgb(177,7,255) */
     color:orange;
+    margin-top: 7rem;
 
 }
 
 .first2{
     margin-top: 2rem;
-    min-height: 4rem;
+    min-height: 8rem;
     width: 60%;
     text-align: left;
 }
@@ -52,7 +55,7 @@
 }
 
 .first4{
-    height: 5rem;
+    min-height: 8rem;
     width: 60%;
     display: flex;
     justify-content: center;
@@ -79,7 +82,7 @@
 #resume-button-2{
     font-size: 1.7rem;
     border: 1px solid orange;
-    height: 3rem;
+    min-height: 3rem;
     margin-left: 2.5rem;
     width: 7rem;
     border-radius: 0.5rem;
@@ -94,6 +97,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
 
 .PicdivHome{
@@ -101,6 +105,7 @@
     border-radius: 3%;
     min-height: 360px;
     /* border:1px solid red; */
+  
 
 }
 
@@ -118,6 +123,7 @@
     .mainhome{
         max-height: 60rem;
         flex-direction: column-reverse;
+       
     }
     
    .homefirst{
@@ -128,13 +134,14 @@
    .first1{
     width:90%;
     font-size: 2.3rem;
-    margin-top: 3rem;
+    margin-top: 13rem;
    }
    .first2{
     width:90%
    }
    .first3{
     width: 90%;
+    
    }
    .first4{
     margin-top: -2rem;
@@ -143,12 +150,13 @@
    .homesecond{
     width: 99%;
     min-height: 100px;
+    margin-top: 1rem;
     
    }
     .PicdivHome{
         width:20rem;
         border-radius: 50%;
-        margin-top: 10rem;
+        margin-top: 12rem;
     }
     .link{
         font-size: 3.1rem;
@@ -169,15 +177,24 @@
 }
 
 @media all and (max-width: 600px){
+    .homefirst{
+        margin-top: -1rem;
+    }
 
     .first1{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        min-height: 0rem;
+     
+      
+      
     }
     
     .first2{
-        margin-top: 4rem;
-       font-size: 1.5rem;
+        margin-top: -0.7rem;
+       font-size: 1rem;
     }
+
+   
 
 
 .PicdivHome{
@@ -191,10 +208,12 @@
    }
 .link{
     font-size: 2.7rem;
+    margin-left: -2rem;
 }
 
 .git{
     font-size: 2.7rem;
+    
 }
 
 #resume-button-2{
@@ -211,7 +230,26 @@
 
 }
 
-@media all and (max-width: 300px){
+@media all and (max-width: 400px){
+
+    .homefirst{
+        margin-top: 0rem;
+    }
+
+    .first1{
+        font-size: 1.4rem;
+        min-height: 0rem;
+   
+       
+      
+    }
+    .first2{
+        margin-top: 1rem;
+        min-height: 8rem;
+     
+    }
+
+ 
    
     .first3{
       margin-top: 2rem;
@@ -222,21 +260,31 @@
        width: 100%;
        display: flex;
        flex-direction: column;
+       justify-content: center;
        align-items: center;
+       gap:0.7rem;
+       margin: auto;
+       margin-top: 1.4rem;
 
        }
 
        .link{
-        font-size: 1.4rem;
+        font-size: 2.6rem;
+        margin-right: 1rem;
+     
     }
     
     .git{
-        font-size: 1.4rem;
+        font-size: 2.4rem;
+        margin-right: 1rem;
+       
     }
-    
+   
     #resume-button-2{
-        font-size: 0.7rem;
+        font-size: 1.1rem;
         width: 5rem;
+        height:2rem;
+        margin-right: 1rem;
     
     }
 
