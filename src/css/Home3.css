@@ -50,7 +50,7 @@
     width: 60%;
     min-height: 8rem;
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: rgb(199, 192, 192);
 }
 
@@ -60,6 +60,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
     /* border: 1px solid red; */
 }
 
@@ -137,14 +138,15 @@
     margin-top: 13rem;
    }
    .first2{
-    width:90%
+    width:90%;
+    margin-top: -3rem
    }
    .first3{
     width: 90%;
-    
+    margin-top: -3rem
    }
    .first4{
-    margin-top: -2rem;
+    margin-top: 2rem;
     width: 90%;
    }
    .homesecond{
@@ -226,7 +228,12 @@
     font-size: 2.1rem;
     margin-top: 5rem;
    }
-
+   
+   .first2{
+    margin-top: 4rem;
+    min-height: 8rem;
+ 
+}
 
 }
 
@@ -244,7 +251,7 @@
       
     }
     .first2{
-        margin-top: 1rem;
+        margin-top: 2rem;
         min-height: 8rem;
      
     }
@@ -252,8 +259,8 @@
  
    
     .first3{
-      margin-top: 2rem;
-      font-size: 0.6rem;
+      margin-top: 1rem;
+      font-size: 0.9rem;
        }
 
     .first4{
@@ -264,7 +271,7 @@
        align-items: center;
        gap:0.7rem;
        margin: auto;
-       margin-top: 1.4rem;
+       margin-top: 6rem;
 
        }
 
@@ -289,3 +296,4 @@
     }
 
 }
+
