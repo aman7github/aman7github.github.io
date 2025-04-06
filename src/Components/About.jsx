@@ -21,7 +21,7 @@ const About = () => {
 
         <div className='infoAMAN'  >
           <p className='P1AMAN'  >About Me</p>
-          <p className='P2AMAN'id="user-detail-intro"  >A self-motivated, hard-working, and ambitious Web Developer with proficiency in MERN Stack. Developing websites using JavaScript, React, Redux, MongoDB and Chakra UI. 1200+ hours of coding and hands-on experience in developing various Web-Apps and programs. Looking forward to working as an accountable and competent employee in an exciting tech company.</p>
+          <p className='P2AMAN'id="user-detail-intro"  >A self-motivated, hard-working, and ambitious Web Developer with proficiency in MERN Stack. Developing websites using JavaScript, React, Redux, MongoDB and Chakra UI. 2100+ hours of coding and hands-on experience in developing various Web-Apps and programs. Looking forward to working as an accountable and competent employee in an exciting tech company.</p>
         </div>
 
       </div>

@@ -3,8 +3,9 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import {AiOutlineLinkedin,AiFillGithub} from "react-icons/ai"
 import Pic from "./aman3.jpg"
-import file from "./File/Resume.pdf"
+// import file from "./File/Resume.pdf"
 import Download from './Handleclick'
+import file from './File/Resume.pdf'
 
 
 import "../css/Home3.css"
@@ -57,7 +58,7 @@ const Home = () => {
               </a>
               
               <button className='btn' id="resume-button-2" >
-              <a  href={file}   download="Aman_Kumar_Maurya_Resume.pdf" id="resume-link-2" onClick={Download} >
+              <a  href={file}   download="Aman_Kumar_Maurya_Resume.pdf" id="resume-link-2" onClick={Download}  >
 
                 Resume
                 </a>

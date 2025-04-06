@@ -1,6 +1,6 @@
 
 const Download = () => {
-    window.open("https://drive.google.com/file/d/1Ka_kTQH7kMstCNMQ8LaTTWVM4vuLeF4P/view?usp=share_link")
+    window.open("https://drive.google.com/file/d/1N2Rg6rycQEV3ru_-E2TwD0DSlPsSJgIq/view?usp=sharing")
 }
 
 export default Download

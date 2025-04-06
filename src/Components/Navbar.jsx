@@ -53,7 +53,7 @@ const Navbar = () => {
 
        
        <button   id="resume-button-1"   >
-       <a href={file}   download="Aman_Maurya_Resume.pdf" onClick={Download}  className='nav-link resume' id="resume-link-1"  >
+       <a href={file}   download="Aman_Kumar_Maurya_Resume.pdf"   className='nav-link resume' id="resume-link-1" onClick={Download} >
           RESUME
         </a>
         </button>
@@ -152,8 +152,12 @@ const Navbar = () => {
                 fontSize="sm"
                
                 >
-                     <a  href={file}   download="Aman_Maurya_Resume.pdf"   onClick={Download} id="resume-link-1" >   
+                     {/* <a  href={file}   download="Aman_Kumar_Maurya_Resume.pdf"   id="resume-link-1" onClick={Download}  >    */}
+                     {/* <a  href={file}   download="Aman_Kumar_Maurya_Resume.pdf" id="resume-link-1" onClick={Download}  >
                       RESUME
+                     </a> */}
+                     <a   href={file} download='Aman_kumar_Maurya_Resume'  id="resume=link-1" onClick={Download}  >
+                       RESUME
                      </a>
               </Button>
              

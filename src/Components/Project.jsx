@@ -45,30 +45,6 @@ const Project = () => {
    </div>
 
 
-   <div  className="project-card" data-aos="fade-down" >
-    <div className='Pro1a' >
-        <img src={Ind} alt="pic" />
-    </div>
-
-    <div className='Pro1b' >
-      <p className='project-title'  >DoorStep Clone</p>
-      <p className='project-description' > Doorstep allows users to buy voucher and coupons. It has a various categories. It shows all the services which are available near to the user's location.</p>
-      <p className='Pr2' >A collaborative project built by team of 5 members in 5 days</p>
-      <p className='project-tech-stack' >TECH STACKS - HTML | CSS | JavaScript | React | Redux | MongoDB | Chakra UI</p>
-
-      <div className='btnDiv' >
-        <a href="https://doorstep-iota.vercel.app/"  >
-        <button className='project-deployed-link' >Live Demo</button>
-        </a>
-        <a href="https://github.com/KaustubhN12/dizzy-stitch-9009">
-        <button className='project-github-link'  >Source Code</button>
-        </a>
-      </div>
-
-    </div>
-   </div>
-
-
 
 
    <div className="project-card"  data-aos="fade-down" >
@@ -95,6 +71,28 @@ const Project = () => {
    </div>
 
 
+   <div  className="project-card" data-aos="fade-down" >
+    <div className='Pro1a' >
+        <img src={Ind} alt="pic" />
+    </div>
+
+    <div className='Pro1b' >
+      <p className='project-title'  >DoorStep Clone</p>
+      <p className='project-description' > Doorstep allows users to buy voucher and coupons. It has a various categories. It shows all the services which are available near to the user's location.</p>
+      <p className='Pr2' >A collaborative project built by team of 5 members in 5 days</p>
+      <p className='project-tech-stack' >TECH STACKS - HTML | CSS | JavaScript | React | Redux | MongoDB | Chakra UI</p>
+
+      <div className='btnDiv' >
+        <a href="https://doorstep-iota.vercel.app/"  >
+        <button className='project-deployed-link' >Live Demo</button>
+        </a>
+        <a href="https://github.com/KaustubhN12/dizzy-stitch-9009">
+        <button className='project-github-link'  >Source Code</button>
+        </a>
+      </div>
+
+    </div>
+   </div>
 
 
 
