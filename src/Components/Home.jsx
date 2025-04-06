@@ -6,8 +6,6 @@ import Pic from "./aman3.jpg"
 // import file from "./File/Resume.pdf"
 import Download from './Handleclick'
 import file from './File/Resume.pdf'
-
-
 import "../css/Home3.css"
 
 const Home = () => {
@@ -42,7 +40,7 @@ const Home = () => {
 
 
            <div className='first3' >
-           A self-motivated, hard-working, and ambitious Web Developer with proficiency in MERN Stack. Developing websites using JavaScript, React, Redux and Chakra UI. Looking forward to working as an accountable and competent employee in an exciting Tech company.
+           A highly motivated and detail-oriented Web Developer with hands-on experience in the MERN stack. Skilled in building responsive and dynamic web applications using HTML, JavaScript, React, Next.js, Node.js and MongoDB. Eager to contribute as a reliable and results-driven team member in a forward-thinking tech company
            </div>
 
 
