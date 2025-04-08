@@ -1,5 +1,6 @@
 import React from 'react'
 import Ind from "./pro.png"
+import Game from './game.png'
 import Zoom from "./Zoom.png"
 import Sales from "./Sales.png"
 import "aos/dist/aos.css";
@@ -95,6 +96,31 @@ const Project = () => {
    </div>
 
 
+
+
+
+   <div  className="project-card" data-aos="fade-down" >
+    <div className='Pro1a' >
+        <img src={Game} alt="pic" />
+    </div>
+
+    <div className='Pro1b' >
+      <p className='project-title'  >Game-Of-Thrones</p>
+      <p className='project-description' >Raja Mantri Chor Sipahi" is a classic role-based guessing game with a twist. It adds a Queen character and new rules to make gameplay more fun and exciting.</p>
+      <p className='Pr2' >A collaborative project built by team of 3 members in 3 days</p>
+      <p className='project-tech-stack' >TECH STACKS - HTML | CSS | JavaScript | React | Redux </p>
+
+      <div className='btnDiv' >
+        <a href="https://gamefrontend-eko21c0zt-aman7githubs-projects.vercel.app/"  >
+        <button className='project-deployed-link' >Live Demo</button>
+        </a>
+        <a href="https://github.com/aman7github/Game-Of-Thrones">
+        <button className='project-github-link'  >Source Code</button>
+        </a>
+      </div>
+
+    </div>
+   </div>
 
    
 
