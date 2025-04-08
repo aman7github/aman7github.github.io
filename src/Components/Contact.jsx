@@ -6,7 +6,7 @@ import "../css/Contact.css"
 const Contact = () => {
   return (
     <div className='contact' id="contact" >
-     <p className='contactP1' >Intrested In Work Together?</p>
+     <p className='contactP1' >Interested in working together?</p>
 
      <div className='icondivcontact' >
           <p className='contactP2' >Contact Me</p>

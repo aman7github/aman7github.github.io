@@ -34,10 +34,10 @@ const Project = () => {
       <p className='project-tech-stack' >TECH STACKS - HTML | CSS | JavaScript | React | Redux | MongoDB | Chakra UI | MongoBD | Node.js |Express</p>
 
       <div className='btnDiv' >
-        <a href="https://fronted.vercel.app/"  >
+        <a href="https://fronted.vercel.app/" target={"_blank"} >
         <button className='project-deployed-link' >Live Demo</button>
         </a>
-        <a href="https://github.com/aman7github/ModeSens">
+        <a href="https://github.com/aman7github/ModeSens" target={"_blank"} >
         <button className='project-github-link'  >Source Code</button>
         </a>
       </div>
@@ -48,7 +48,9 @@ const Project = () => {
 
 
 
-   <div className="project-card"  data-aos="fade-down" >
+
+
+   <div className="project-card"  data-aos="fade-down"  >
     <div className='Pro1a' >
         <img src={Crys} alt="pic" />
     </div>
@@ -60,16 +62,20 @@ const Project = () => {
       <p className='project-tech-stack' >TECH STACKS -  HTML | CSS | JavaScript | Next.js | Chakra UI</p>
 
       <div className='btnDiv' >
-        <a href="https://crystara-swart.vercel.app/">
+        <a href="https://crystara-swart.vercel.app/" target={"_blank"} >
         <button className='project-deployed-link' >Live Demo</button>
         </a>
-        <a href="https://github.com/Neerav-Khatri/Crystara">
+        <a href="https://github.com/Neerav-Khatri/Crystara"  target={"_blank"} >
         <button className='project-github-link' >Source Code</button>
         </a>
       </div>
 
     </div>
    </div>
+
+
+
+
 
 
    <div  className="project-card" data-aos="fade-down" >
@@ -84,16 +90,19 @@ const Project = () => {
       <p className='project-tech-stack' >TECH STACKS - HTML | CSS | JavaScript | React | Redux | MongoDB | Chakra UI</p>
 
       <div className='btnDiv' >
-        <a href="https://doorstep-iota.vercel.app/"  >
+        <a href="https://doorstep-iota.vercel.app/" target={"_blank"} >
         <button className='project-deployed-link' >Live Demo</button>
         </a>
-        <a href="https://github.com/KaustubhN12/dizzy-stitch-9009">
+        <a href="https://github.com/KaustubhN12/dizzy-stitch-9009"  target={"_blank"} >
         <button className='project-github-link'  >Source Code</button>
         </a>
       </div>
 
     </div>
    </div>
+
+
+
 
 
 
@@ -111,10 +120,10 @@ const Project = () => {
       <p className='project-tech-stack' >TECH STACKS - HTML | CSS | JavaScript | React | Redux </p>
 
       <div className='btnDiv' >
-        <a href="https://gamefrontend-eko21c0zt-aman7githubs-projects.vercel.app/"  >
+        <a href="https://resplendent-conkies-994605.netlify.app/" target={"_blank"}  >
         <button className='project-deployed-link' >Live Demo</button>
         </a>
-        <a href="https://github.com/aman7github/Game-Of-Thrones">
+        <a href="https://github.com/aman7github/Game-Of-Thrones" target={"_blank"} >
         <button className='project-github-link'  >Source Code</button>
         </a>
       </div>
